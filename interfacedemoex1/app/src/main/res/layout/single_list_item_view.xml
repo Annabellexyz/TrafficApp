@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/product_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:padding="10dip"
+        android:hint="name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:padding="10dip"
+        android:hint="name"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView2"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:padding="10dip"
+        android:hint="name"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView3"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:padding="10dip"
+        android:hint="name"
+         />
+    <ImageView
+        android:adjustViewBounds= "true"
+        android:maxHeight="75px"
+        android:maxWidth="100px"
+        android:minHeight="75px"
+        android:minWidth="100px"
+        android:scaleType="fitXY"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/imageView" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InterfaceDemo</string>
+    <string name="settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dialog_list">DialogList</string>
+    <string name="action_settings">Settings</string>
+    <string name="pick_color">Pick a color</string>
+    <string name="items_list">Items</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="signin">Sign in</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+</resources>

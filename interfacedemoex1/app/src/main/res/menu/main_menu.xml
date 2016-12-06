@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_menu"
+        android:title="User Settings"/>
+
+    <item android:id="@+id/items"
+        android:title="Traffic"
+        />
+
+    <item android:id="@+id/custom_dialog"
+        android:title="Calendar"/>
+
+    <item android:id="@+id/Send_location"
+        android:title="Send location" />
+    <item android:id="@+id/map_traffic"
+        android:title="Friends" />
+    <item android:id="@+id/log_out"
+        android:title="Log out" />
+</menu>

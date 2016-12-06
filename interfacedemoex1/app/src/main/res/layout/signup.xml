@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:hint="e-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/editTextUserName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:hint="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:hint="Password"
+        android:layout_below="@+id/editText2"
+        android:inputType="textPassword"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:hint="Home address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editTextConfirmPassword"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="380dp" />
+
+    <ImageView
+        android:adjustViewBounds= "true"
+        android:maxHeight="75px"
+        android:maxWidth="100px"
+        android:minHeight="75px"
+        android:minWidth="100px"
+        android:scaleType="fitXY"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/imageView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="30dp" />
+
+</RelativeLayout>

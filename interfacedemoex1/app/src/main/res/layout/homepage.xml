@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:hint="password"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/editText5"
+        android:hint="email"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:hint="phone"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:hint="homeaddr"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/button2"
+
+        android:layout_marginLeft="120dp"
+
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit pic"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView" />
+
+</RelativeLayout>
